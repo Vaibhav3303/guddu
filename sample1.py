@@ -1,7 +1,6 @@
 import csv
-#update by 2
 import json
-#change1
+
 
 with open("employees.csv","r") as foo:
     readers = csv.DictReader(foo)
